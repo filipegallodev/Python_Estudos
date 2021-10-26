@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
 
-navegador = webdriver.Chrome("C://Users/Filipe/OneDrive/Documentos/Python/selenium/chromedriver.exe")
+navegador = webdriver.Chrome("chromedriver.exe")
 
 navegador.get("https://www.google.com.br/")
 time.sleep(1)
