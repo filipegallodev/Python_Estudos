@@ -1,5 +1,5 @@
 print('-=-' * 13)
-print('Seja bem-vindo à Super Calculadora 1.0!')
+print('Seja bem-vindo(a) à Super Calculadora 1.0!')
 print('-=-' * 13)
 
 condicional = 1
@@ -12,11 +12,11 @@ while condicional == 1:
     if operador == '+':
         print(f'A soma entre {valorUm} e {valorDois} é: {valorUm + valorDois}')
     elif operador == '-':
-        print(f'A soma entre {valorUm} e {valorDois} é: {valorUm - valorDois}')
+        print(f'A subtração entre {valorUm} e {valorDois} é: {valorUm - valorDois}')
     elif operador == '*':
-        print(f'A soma entre {valorUm} e {valorDois} é: {valorUm * valorDois}')
+        print(f'A multiplicação entre {valorUm} e {valorDois} é: {valorUm * valorDois}')
     elif operador == '/':
-        print(f'A soma entre {valorUm} e {valorDois} é: {valorUm / valorDois}')
+        print(f'A divisão entre {valorUm} e {valorDois} é: {valorUm / valorDois}')
     else:
         print('Erro!!! O operador inserido é inválido! Por favor, insira um operador válido.')
 
